@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Raw dataset (as requested)
+data/raw/
+
+# Model artifacts (can be regenerated with python train.py)
+models/*.joblib
+
+# Environment variables & local secrets
+.env
+.env.local
+
+# IDE & Editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Streamlit local credentials & runtime
+.streamlit/secrets.toml
