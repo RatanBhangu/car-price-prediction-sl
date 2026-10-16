@@ -14,8 +14,8 @@ __pycache__/
 # Raw dataset (as requested)
 data/raw/
 
-# Model artifacts (can be regenerated with python train.py)
-models/*.joblib
+# Model artifacts (16 MB - committed for seamless Streamlit Cloud deployment)
+# models/*.joblib
 
 # Environment variables & local secrets
 .env
